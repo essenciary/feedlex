@@ -57,7 +57,6 @@ defmodule Feedlex.Mixfile do
      files: ["config", "doc", "lib", "test", "mix.exs", "README*"],
      contributors: ["Adrian Salceanu"],
      licenses: ["GPLv3"],
-     links: %{"GitHub" => "https://github.com/essenciary/feedlex",
-              "Docs" => "https://github.com/essenciary/feedlex/doc/"}]
+     links: %{"GitHub" => "https://github.com/essenciary/feedlex"}]
   end
 end
