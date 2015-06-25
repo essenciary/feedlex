@@ -7,6 +7,8 @@ defmodule Feedlex.Mixfile do
      deps_path: "../../deps",
      lockfile: "../../mix.lock",
      elixir: "~> 1.0",
+     description: description,
+     package: package,
      deps: deps]
   end
 
@@ -34,6 +36,28 @@ defmodule Feedlex.Mixfile do
     [
       {:httpoison, "~> 0.6"},
       {:poison, "~> 1.3.1"},
+      {:earmark, "~> 0.1", only: :dev},
+      {:ex_doc, "~> 0.7", only: :dev}
     ]
+  end
+
+  defp description do
+    """
+    Feedly RSS reader client for Elixir (elixir-lang).
+    Partial but functional implementation. For now it covers the following Feedly APIs:
+    * authentication;
+    * feed;
+    * stream;
+    * subscription.
+    """
+  end
+
+  defp package do
+    [# These are the default files included in the package
+     files: ["config", "doc", "lib", "test", "mix.exs", "README*"],
+     contributors: ["Adrian Salceanu"],
+     licenses: ["GPLv3"],
+     links: %{"GitHub" => "https://github.com/essenciary/feedlex",
+              "Docs" => "https://github.com/essenciary/feedlex/doc/"}]
   end
 end
