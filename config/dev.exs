@@ -1,7 +1,7 @@
 use Mix.Config
 
 # whether or not the app runs in sandbox mode
-config :feedly, sandbox: true
-config :feedly, client_id: "sandbox"
-config :feedly, client_secret: "4205DQXBAP99S8SUHXI3" # (expires on 6/1/2015)
-config :feedly, redirect_uri: "http://localhost:8080/" # don't forget the closing "/"
+config :feedlex, sandbox: true
+config :feedlex, client_id: "sandbox"
+config :feedlex, client_secret: "JSSBD6FZT72058P51XEG" # (expires on 4/1/2016)
+config :feedlex, redirect_uri: "http://localhost:8080/" # don't forget the closing "/"
