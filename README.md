@@ -15,3 +15,8 @@ anyone needs/adds them.
 
 For a functional example, check out the demo app:
 https://github.com/essenciary/feedlex_demo_app
+
+### TODO
+
+- [ ] Unit testing
+- [ ] Give reasonable error when API keys are not configured
