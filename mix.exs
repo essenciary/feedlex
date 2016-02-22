@@ -3,7 +3,7 @@ defmodule Feedlex.Mixfile do
 
   def project do
     [app: :feedlex,
-     version: "0.0.2",
+     version: "0.0.3",
      deps_path: "../../deps",
      lockfile: "../../mix.lock",
      elixir: "~> 1.0",
